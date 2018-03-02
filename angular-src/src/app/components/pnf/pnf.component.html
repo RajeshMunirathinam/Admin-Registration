@@ -1,0 +1,11 @@
+
+<h2 class="page-header" >User Confirmation</h2>
+<form class="form-signin" (submit)="onLoginSubmit()">
+        <div class="form-group">
+          <label for="email">Token:</label>
+          <input type="text" class="form-control" placeholder="Enter the Token" [(ngModel)]="token" name="token">
+        </div>
+       
+        
+        <input class="btn btn-lg btn-primary" type="submit" value="Verify">
+</form>
